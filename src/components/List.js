@@ -22,7 +22,7 @@ import { withRouter } from 'react-router-dom';
             if(!isOnFavoritesList) {
                 return <button onClick={ (event) => {
                     this.makeFavorite(beer);
-                    this.props.history.push('/')
+                    this.props.history.push('/favorites-frontend');
                 }}>Favorite</button>
             }
             return <span>⭐</span>
