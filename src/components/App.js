@@ -19,7 +19,7 @@ export default class App extends Component {
         <Header />
         <Router>
           <Switch>
-            <PrivateRoute exact path="https://jennagoldman.github.io/favorites-frontend/" component={Search} user={this.state.user} />
+            <PrivateRoute exact path="/" component={Search} user={this.state.user} />
             <PrivateRoute exact path="/favorites" component={Favorites} user={this.state.user} />
             <Route exact path="/signin" render={(props) => 
               <SignUp {...props} setUser={ this.setUser} user={ this.state.user } />
