@@ -18,7 +18,7 @@ import request from 'superagent';
     
             this.props.setUser(user);
 
-            this.props.history.push('/');
+            this.props.history.push('/favorites-frontend');
         }
 
         handleSignIn = async (event) => {
@@ -30,7 +30,7 @@ import request from 'superagent';
 
             this.props.setUser(user);
         
-            this.props.history.push('/');
+            this.props.history.push('/favorites-frontend');
         }
 
 		render() {

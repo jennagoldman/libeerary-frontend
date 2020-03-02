@@ -15,7 +15,7 @@ import request from 'superagent';
 		render() {
 			return (
 				<div className="favorites-container">
-                    <Link to="/" className="link-to">Search</Link>
+                    <Link to="/favorites-frontend" className="link-to">Search</Link>
                     <h2>My Favorite Beers</h2>
                     <List beers={this.state.beers} />
                 </div>

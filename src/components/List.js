@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom';
 
 	export default withRouter(class List extends Component {
         makeFavorite = async (beer) => {
-            const favorite = await request.post('http://localhost:5000/api/my/favorites', {
+            const favorite = await request.post('https://damp-meadow-28672.herokuapp.com/api/my/favorites', {
                 name: beer.name,
                 abv: beer.abv,
                 ibu: 
@@ -32,7 +32,7 @@ import { withRouter } from 'react-router-dom';
             if(beer.image_url) {
                 return beer.image_url;
             } else if(!beer.labels) {
-                return './placeholder.jpg';
+                return '../favorites-frontend/placeholder.jpg';
             } else {
                 return beer.labels.icon;
             }
