@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/favorites-frontend/static/css/main.d2903297.chunk.css",
-    "main.js": "/favorites-frontend/static/js/main.38933b1f.chunk.js",
-    "main.js.map": "/favorites-frontend/static/js/main.38933b1f.chunk.js.map",
+    "main.js": "/favorites-frontend/static/js/main.6afd992a.chunk.js",
+    "main.js.map": "/favorites-frontend/static/js/main.6afd992a.chunk.js.map",
     "runtime-main.js": "/favorites-frontend/static/js/runtime-main.69fa3c42.js",
     "runtime-main.js.map": "/favorites-frontend/static/js/runtime-main.69fa3c42.js.map",
     "static/js/2.e1783d52.chunk.js": "/favorites-frontend/static/js/2.e1783d52.chunk.js",
     "static/js/2.e1783d52.chunk.js.map": "/favorites-frontend/static/js/2.e1783d52.chunk.js.map",
     "index.html": "/favorites-frontend/index.html",
-    "precache-manifest.01d4420bf91dead7a140c0ba55909997.js": "/favorites-frontend/precache-manifest.01d4420bf91dead7a140c0ba55909997.js",
+    "precache-manifest.f6f369ed7395d08d6ff794217de619eb.js": "/favorites-frontend/precache-manifest.f6f369ed7395d08d6ff794217de619eb.js",
     "service-worker.js": "/favorites-frontend/service-worker.js",
     "static/css/main.d2903297.chunk.css.map": "/favorites-frontend/static/css/main.d2903297.chunk.css.map",
     "static/js/2.e1783d52.chunk.js.LICENSE.txt": "/favorites-frontend/static/js/2.e1783d52.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.69fa3c42.js",
     "static/js/2.e1783d52.chunk.js",
     "static/css/main.d2903297.chunk.css",
-    "static/js/main.38933b1f.chunk.js"
+    "static/js/main.6afd992a.chunk.js"
   ]
 }
