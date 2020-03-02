@@ -17,7 +17,7 @@ export default class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router basename="favorites-frontend">
           <Switch>
             <PrivateRoute exact path="/" component={Search} user={this.state.user} />
             <PrivateRoute exact path="/favorites" component={Favorites} user={this.state.user} />
