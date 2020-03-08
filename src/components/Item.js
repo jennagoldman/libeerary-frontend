@@ -10,14 +10,14 @@ import React, { Component } from 'react';
                         </div>
                         <img 
                             src={
-                                    this.props.beer.labels === undefined
+                                    this.props.beer.beer_label === undefined
                                         ? "./placeholder.jpg"
-                                        : this.props.beer.labels.icon
+                                        : this.props.beer.beer_label
                                 } 
                             alt={this.props.beer.name} />
                         <p>
-                            <span>IBU: {this.props.beer.ibu} | </span>
-                            <span>ABV: {this.props.beer.abv}%</span>
+                            <span>IBU: {this.props.beer.beer_ibu} | </span>
+                            <span>ABV: {this.props.beer.beer_abv}%</span>
                         </p>
                     </div>
                 </li>

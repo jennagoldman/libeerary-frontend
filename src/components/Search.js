@@ -28,7 +28,7 @@ import request from 'superagent';
             this.setState({ loading: true });
             const data = await request.get(`https://damp-meadow-28672.herokuapp.com/api/beers?search=${this.state.input}`);
             // const beers = data.body.data;
-            const beers = data.body.data;
+            const beers = data.body.response.beers.items;
 
             this.setState({ beers, loading: false })
             console.log(beers);
